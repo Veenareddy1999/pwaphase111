@@ -1,0 +1,54 @@
+.left{
+  background: pink;
+  width: 25%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+
+}
+img{
+  width: 100%;
+}
+.right{
+  background: #008080;
+  width: 69%;
+
+  border: 3px solid gray;
+  border-radius: 3%;
+  padding: 2%;
+  margin: 3%;
+}
+.parent{
+  display:flex;
+
+
+
+}
+table{
+  width:100%;
+}
+table th,td{
+  border: 2px solid gray;
+}
+@media screen and (max-width:766px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .left,.right{
+    width: 100%;
+  }
+  table {
+    font-size: 12px;
+  }
+
+}
+  @media screen and (min-width:768px) and (max-width:1023px) {
+    .parent{
+      background: teal;
+
+    }
+    .right{
+      background: teal;
+}
+
+}

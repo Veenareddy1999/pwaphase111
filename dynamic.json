@@ -1,0 +1,43 @@
+{
+  "profile":{
+    "ig":"images/image1.jpg",
+    "name":"Veena Reddy",
+    "desig":"CSE STUDENT",
+    "mobile":"2138987460",
+    "email":"veena123@gmail.com"
+  },
+  "career":{
+    "info":"to learn something"
+  },
+  "Education":
+  [
+    {
+    "qualification":"SSC",
+    "Institution":"Vignana Deepthi",
+    "percentage":"95%",
+    "YOP":"2015"
+  },
+  {
+  "qualification":"+2",
+  "Institution":"SCJC",
+  "percentage":"98%",
+  "YOP":"2017"
+
+},
+{
+  "qualification":"BTech",
+  "Institution":"MITS",
+  "percentage":"91%",
+  "YOP":"2021"
+}
+],
+"Skills":[{
+  "name":"Programming",
+  "info":["c","c++","java"]
+},
+{
+  "name":"Databases",
+  "info":["JDBC","ORACLE","SQL"]
+}
+]
+}
